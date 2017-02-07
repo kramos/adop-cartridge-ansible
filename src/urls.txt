@@ -1,1 +1,2 @@
 https://github.com/anton-kasperovich/adop-cartridge-ansible-reference-role.git
+https://github.com/kramos/adop-cartridge-ansible-reference-playbook.git
