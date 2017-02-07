@@ -28,7 +28,7 @@ def variables = [
 def getPlaybookJob = AnsibleCartridge.getBuildFromSCMJob(
     AnsibleCartridge.baseCartridgeJob(this, projectFolderName + '/Get_Playbook', variables),
     variables + [
-        'artifactDefaultValue'  : '',
+        'artifactDefaultValue'  : 'adop-cartridge-ansible-reference-playbook',
         'triggerDownstreamJob'  : projectFolderName + '/Playbook_Sanity_Test',
     ]
 )
